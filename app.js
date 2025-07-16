@@ -7,6 +7,9 @@ const alertRoutes = require('./routes/alertRoutes');
 const userRoutes = require('./routes/userRoutes');
 
 const app = express();
+// Example in app.js or server.js
+const predictionRoutes = require('./routes/prediction');
+app.use('/api', predictionRoutes);
 
 // Connect Database
 connectDB();
