@@ -25,10 +25,8 @@ app.use('/api/stocks', stockRoutes);
 app.use('/api/alerts', alertRoutes);
 app.use('/api/users', userRoutes);
 
-<<<<<<< HEAD
 app.use('/api/payment', paymentRoutes);
 
 module.exports = app;
-=======
+
 module.exports = app;
->>>>>>> 55e42af7bec561ba02a00dac7a0d877f4c12f446
