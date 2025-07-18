@@ -12,6 +12,7 @@
   "dependencies": {
     "express": "^5.1.0",
     "mongodb": "^6.17.0",
+    "stripes": "^0.0.82",
     "ws": "^8.18.3"
   }
 }
