@@ -9,6 +9,7 @@ const userRoutes = require('./routes/userRoutes');
 const app = express();
 // Example in app.js or server.js
 const predictionRoutes = require('./routes/prediction');
+const paymentRoutes = require('./routes/payment');
 app.use('/api', predictionRoutes);
 
 // Connect Database
@@ -22,5 +23,7 @@ app.use(express.json());
 app.use('/api/stocks', stockRoutes);
 app.use('/api/alerts', alertRoutes);
 app.use('/api/users', userRoutes);
+
+app.use('/api/payment', paymentRoutes);
 
 module.exports = app;
