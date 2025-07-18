@@ -9,11 +9,8 @@ const userRoutes = require('./routes/userRoutes');
 const app = express();
 // Example in app.js or server.js
 const predictionRoutes = require('./routes/prediction');
-<<<<<<< HEAD
 const paymentRoutes = require('./routes/payment');
 app.use('/api', predictionRoutes);
-=======
->>>>>>> 55e42af7bec561ba02a00dac7a0d877f4c12f446
 
 // Connect Database
 connectDB();
